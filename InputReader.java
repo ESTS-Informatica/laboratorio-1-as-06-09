@@ -20,7 +20,7 @@ public class InputReader {
             question = "";
         }
 
-        System.out.print(" > " + question);
+        System.out.println(" > " + question);
 
         char answer = reader.next().charAt(0);
         reader.nextLine();
